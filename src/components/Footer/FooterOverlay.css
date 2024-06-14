@@ -1,0 +1,21 @@
+.app__footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.footer__copyright {
+    flex-direction: column;
+}
+
+.app__footer-image_quote p {
+    width: 250px;
+}
+
+@media screen and (max-width: 900px) {
+    .app__footer-container {
+        flex-direction: column;
+    }
+}
+

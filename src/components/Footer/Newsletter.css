@@ -1,0 +1,24 @@
+.app__newsletter-container {
+    text-align: center;
+}
+
+.app__newsletter-container h1 {
+    font-size: 64px;
+}
+
+.app__newsletter-input {
+    border: 1px solid var(--color-golden);
+    background: var(--color-black);
+    padding: 15px 15px;
+    border-radius: 5px;
+    width: 400px;
+    color: var(--color-white);
+    font-family: var(--font-base);
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 650px) {
+    .app__newsletter-input {
+        width: 350px;
+    }
+}
